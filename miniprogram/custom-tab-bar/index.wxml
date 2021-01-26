@@ -1,0 +1,8 @@
+<view class="container">
+<view class="tab-bar">
+  <view class="seccitem" wx:for="{{list}}" wx:key="index" class="tab-bar-item" data-path="{{item.pagePath}}" data-index="{{index}}" bindtap="switchTab">
+    <image class="img {{selected === index ? 'secItem':'unsec' }}" src="{{item.iconPath}}"></image>
+    <!-- <view class=" {{selected === index ? 'line':'' }}" ></view> -->
+  </view>
+</view>
+</view>

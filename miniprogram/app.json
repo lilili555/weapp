@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index2",
+    "pages/index/index1",
+    
+    "pages/index/index3",
+    "pages/register/register",
+    "pages/publish/publish"
+  ],
+  "window": {
+    "backgroundColor": "#fffe03",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fffe03",
+    "navigationBarTitleText": "app",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "custom": true,
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "list": [
+      {
+        "pagePath": "pages/index/index1",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/index/index2",
+        "text": "发现"
+
+      },
+      {
+        "pagePath": "pages/index/index3",
+        "text": "我的"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

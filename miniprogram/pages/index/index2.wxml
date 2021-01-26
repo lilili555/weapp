@@ -1,0 +1,21 @@
+<view class="container">
+
+  <view class="header" style="height:{{top+42}}px;">
+    <image class="immg" src="../../images/搜索.png"></image>
+  </view>
+
+
+   <button class="publish-container"open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">
+      <i class="iconfont icon-fabu"></i>
+    </button>
+
+  <view class="faxianList">
+    <block wx:for="{{faxianList}}" wx:key="_id">
+      <view class="faxianPanel">
+        <l-card faxian="{{item}}" />
+      </view>
+    </block>
+  </view>
+
+
+</view>
